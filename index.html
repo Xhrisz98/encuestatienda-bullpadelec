@@ -96,6 +96,13 @@
         }
     </script>
     <style>
+        html, body {
+            -ms-overflow-style: none;  /* IE y Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+        html::-webkit-scrollbar, body::-webkit-scrollbar {
+            display: none; /* Chrome, Safari y Opera */
+        }
         body {
             background-color: #131313;
             background-image:
